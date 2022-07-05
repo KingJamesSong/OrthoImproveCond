@@ -7,7 +7,9 @@ More extended experiments will be updated sooon! Stay tuned.
 
 To run decorrelated BN experiments with 
 
-```CUDA_VISIBLE_DEVICES=0 python main_cifar100.py --norm='zcanormbatch' --batch_size=128 --nog --olr --ow
+```python
+CUDA_VISIBLE_DEVICES=0 python main_cifar100.py --norm='zcanormbatch' --batch_size=128 --nog --olr --ow
+```
 
 ## Citation
 
