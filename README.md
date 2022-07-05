@@ -5,7 +5,7 @@ More extended experiments will be updated sooon! Stay tuned.
 
 ## Usage
 
-To run decorrelated BN experiments with 
+Run decorrelated BN experiments with proposed techniques to improve covariance conditioning:
 
 ```python
 CUDA_VISIBLE_DEVICES=0 python main_cifar100.py --norm='zcanormbatch' --batch_size=128 --nog --olr --ow
