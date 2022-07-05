@@ -3,7 +3,7 @@ ECCV22 paper "Improving Covariance Conditioning of the SVD Meta-layer by Orthogo
 
 <img src="/Decorrelated BN/dbn_gradient.jpg" width="45%"><img src="/Decorrelated BN/dbn_lr.jpg" width="45%" hspace="0.3%">
 
-We propose [nearest-orthogonal gradient (nog)](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/Decorrelated%20BN/main_cifar100.py#L139) and [optimal learning rate (olr)](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/Decorrelated%20BN/main_cifar100.py#L152) to enforce strict/relaxted orthogonality into the training of differentiable SVD layer, which can simultaneously improve the conditioning and generalization. The combination with [orthogonal convolution](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/Decorrelated%20BN/models/skew_symmetric_conv.py#L12) could further boost the performance.
+We propose [nearest-orthogonal gradient (nog)](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/Decorrelated%20BN/main_cifar100.py#L139) and [optimal learning rate (olr)](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/Decorrelated%20BN/main_cifar100.py#L152) to enforce strict/relaxed orthogonality into the training of differentiable SVD layer, which can simultaneously improve the conditioning and generalization. The combination with [orthogonal convolution](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/Decorrelated%20BN/models/skew_symmetric_conv.py#L12) could further boost the performance.
 
 More extended experiments will be updated sooon! Stay tuned.
 
