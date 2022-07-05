@@ -20,7 +20,7 @@ CUDA_VISIBLE_DEVICES=0 python main_cifar100.py --norm='zcanormbatch' --batch_siz
 Please consider citing our paper if you think the code is helpful to your research.
 
 ```
-@inproceedings{song2022fast,
+@inproceedings{song2022improving,
   title={Improving Covariance Conditioning of the SVD Meta-layer by Orthogonality},
   author={Song, Yue and Sebe, Nicu and Wang, Wei},
   booktitle={ECCV},
