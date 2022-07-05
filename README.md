@@ -1,6 +1,8 @@
 # OrthoImproveCond
 ECCV22 paper "Improving Covariance Conditioning of the SVD Meta-layer by Orthogonality"
 
+We propose [nearest-orthogonal gradient (nog)](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/Decorrelated%20BN/main_cifar100.py#L139) and [optimal learning rate (olr)](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/Decorrelated%20BN/main_cifar100.py#L152) to enforce strict/relaxted orthogonality into the training of differentiable SVD layer, which can simultaneously improve the conditioning and generalization.
+
 More extended experiments will be updated sooon! Stay tuned.
 
 ## Usage
