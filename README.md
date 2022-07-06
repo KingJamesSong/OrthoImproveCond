@@ -1,5 +1,5 @@
 # OrthoImproveCond
-ECCV22 paper "Improving Covariance Conditioning of the SVD Meta-layer by Orthogonality"
+ECCV22 paper ["Improving Covariance Conditioning of the SVD Meta-layer by Orthogonality"](https://arxiv.org/pdf/2207.02119.pdf)
 
 <img src="/Decorrelated BN/dbn_gradient.jpg" width="45%"><img src="/Decorrelated BN/dbn_lr.jpg" width="45%" hspace="0.3%">
 
