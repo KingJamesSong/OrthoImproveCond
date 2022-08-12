@@ -24,7 +24,16 @@ CUDA_VISIBLE_DEVICES=0 python main_cifar100.py --norm='zcanormbatch' --batch_siz
 
 ## Usage (Orthogonal EigenGAN)
 
-## Usage (Orthogonal vanilla GAN)
+## Usage (Orthogonal vanilla/simple GAN)
+
+```python
+CUDA_VISIBLE_DEVICES=0 python train.py --dataset_mode celeba --model gan128 --nz 30 --reg_type nog --dataroot CELEBA_ROOT --name celeba_nog  
+```
+
+
+## Requirements
+
+Check [latent.yml](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/latent.yml) for the full list of required packages.
 
 ## Citation
 
