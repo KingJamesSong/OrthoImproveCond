@@ -5,9 +5,9 @@ ECCV22 paper ["Improving Covariance Conditioning of the SVD Meta-layer by Orthog
 
 We propose [nearest-orthogonal gradient (nog)](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/Decorrelated%20BN/main_cifar100.py#L139) and [optimal learning rate (olr)](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/Decorrelated%20BN/main_cifar100.py#L152) to enforce strict/relaxed orthogonality into the training of differentiable SVD layer, which can simultaneously improve the conditioning and generalization. The combination with [orthogonal convolution](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/Decorrelated%20BN/models/skew_symmetric_conv.py#L12) could further boost the performance.
 
-<img src="ffhq_finegrained.jpg" width="95%">
+<img src="ffhq_finegrained.jpg" width="99%">
 
-<img src="celeba_comparison.jpg" width="95%">
+<img src="celeba_comparison2.jpg" width="99%">
 
 The proposed orthogonality techniques can be also used for unsupervised latent disentanglement of generative models.
 
@@ -21,6 +21,10 @@ Run decorrelated BN experiments with proposed techniques to improve covariance c
 ```python
 CUDA_VISIBLE_DEVICES=0 python main_cifar100.py --norm='zcanormbatch' --batch_size=128 --nog --olr --ow
 ```
+
+## Usage (Orthogonal EigenGAN)
+
+## Usage (Orthogonal vanilla GAN)
 
 ## Citation
 
