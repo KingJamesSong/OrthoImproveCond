@@ -9,10 +9,8 @@ We propose [nearest-orthogonal gradient (nog)](https://github.com/KingJamesSong/
 
 <img src="celeba_comparison2.jpg" width="99%">
 
-The proposed orthogonality techniques can be also used for unsupervised latent disentanglement of generative models.
+The proposed orthogonality techniques can be also used for unsupervised latent disentanglement of generative models such as EigenGAN and vanilla/simple GAN.
 
-
-More extended experiments will be updated sooon! Stay tuned.
 
 ## Usage (decorrelated BN)
 
@@ -24,9 +22,13 @@ CUDA_VISIBLE_DEVICES=0 python main_cifar100.py --norm='zcanormbatch' --batch_siz
 
 ## Usage (Orthogonal EigenGAN)
 
+Run orthogonal EigenGAN as:
+
+
+
 ## Usage (Orthogonal vanilla/simple GAN)
 
-All scripts inlcuding training and test can be found in the folder of [training scripts](https://github.com/KingJamesSong/OrthoImproveCond/tree/main/simplegan_experiments/training_scripts). The examplery usage of training on CelebA is:
+All scripts inlcuding training and test can be found in the folder of [training scripts](https://github.com/KingJamesSong/OrthoImproveCond/tree/main/simplegan_experiments/training_scripts). The examplery usage of training orthogonal vannila GAN on CelebA is:
 
 ```python
 CUDA_VISIBLE_DEVICES=0 python train.py --dataset_mode celeba --model gan128 --nz 30 --reg_type nog --dataroot CELEBA_ROOT --name celeba_nog  
