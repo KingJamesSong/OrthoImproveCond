@@ -26,6 +26,8 @@ CUDA_VISIBLE_DEVICES=0 python main_cifar100.py --norm='zcanormbatch' --batch_siz
 
 ## Usage (Orthogonal vanilla/simple GAN)
 
+All scripts inlcuding training and test can be found in the folder of [training scripts](https://github.com/KingJamesSong/OrthoImproveCond/tree/main/simplegan_experiments/training_scripts). The examplery usage of training on CelebA is:
+
 ```python
 CUDA_VISIBLE_DEVICES=0 python train.py --dataset_mode celeba --model gan128 --nz 30 --reg_type nog --dataroot CELEBA_ROOT --name celeba_nog  
 ```
@@ -33,7 +35,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py --dataset_mode celeba --model gan128 --nz
 
 ## Requirements
 
-Check [latent.yml](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/latent.yml) for the full list of required packages.
+Check the environment file [latent.yml](https://github.com/KingJamesSong/OrthoImproveCond/blob/main/latent.yml) for the full list of required packages.
 
 ## Citation
 
