@@ -28,6 +28,8 @@ Run orthogonal EigenGAN on FFHQ as:
 CUDA_VISIBLE_DEVICES=0 python train_ffhq.py DATA_ROOT  --size 256 --batch 64 --reg_type nog --name ffhq_nog
 ```
 
+Check (run_ffhq.sh)[https://github.com/KingJamesSong/OrthoImproveCond/blob/main/EigenGAN/run_ffhq.sh] and (run_animeface)[https://github.com/KingJamesSong/OrthoImproveCond/blob/main/EigenGAN/run_animeface.sh] for the detailed training and test commands.
+
 ## Usage (Orthogonal vanilla/simple GAN)
 
 All scripts inlcuding training and test can be found in the folder of [training scripts](https://github.com/KingJamesSong/OrthoImproveCond/tree/main/simplegan_experiments/training_scripts). The examplery usage of training orthogonal vannila GAN on CelebA is:
