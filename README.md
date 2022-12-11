@@ -1,5 +1,5 @@
 # OrthoImproveCond
-ECCV22 paper ["Improving Covariance Conditioning of the SVD Meta-layer by Orthogonality"](https://arxiv.org/pdf/2207.02119.pdf)
+ECCV22 paper ["Improving Covariance Conditioning of the SVD Meta-layer by Orthogonality"](https://arxiv.org/pdf/2207.02119.pdf) and the T-PAMI extension ["Orthogonal SVD Covariance Conditioning and Latent Disentanglement"]()
 
 <img src="/Decorrelated BN/dbn_gradient.jpg" width="45%"><img src="/Decorrelated BN/dbn_lr.jpg" width="45%" hspace="0.3%">
 
@@ -9,7 +9,7 @@ We propose [nearest-orthogonal gradient (nog)](https://github.com/KingJamesSong/
 
 <img src="celeba_comparison2.jpg" width="99%">
 
-The proposed orthogonality techniques can be also used for unsupervised latent disentanglement of generative models such as EigenGAN and vanilla/simple GAN. For EigenGAN, we validate our orthogonality techniques on AnimeFace and FFHQ. For vanilla/simple GAN, we conduct experiments on relatively simpler CelebA and LSUN Church.
+In the expanded journal version, we further show that the proposed orthogonality techniques can be also used for unsupervised latent disentanglement of generative models such as EigenGAN and vanilla/simple GAN. For EigenGAN, we validate our orthogonality techniques on AnimeFace and FFHQ. For vanilla/simple GAN, we conduct experiments on relatively simpler CelebA and LSUN Church.
 
 
 ## Usage (decorrelated BN)
@@ -54,6 +54,17 @@ Please consider citing our paper if you think the code is helpful to your resear
   author={Song, Yue and Sebe, Nicu and Wang, Wei},
   booktitle={ECCV},
   year={2022}
+}
+```
+
+
+```
+@article{song2022orthogonal,
+  title={Orthogonal SVD Covariance Conditioning and Latent Disentanglement},
+  author={Song, Yue and Sebe, Nicu and Wang, Wei},
+  journal={IEEE TPAMI},
+  year={2022},
+  publisher={IEEE}
 }
 ```
 
